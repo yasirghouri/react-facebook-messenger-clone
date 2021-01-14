@@ -1,3 +1,22 @@
 .App {
   text-align: center;
 }
+.AppForm {
+  padding: 20px;
+  position: fixed;
+  bottom: 20px;
+  z-index: 1;
+  background-color: #e9e9eb;
+  width: 90%;
+  margin: 20px;
+}
+.AppFormControl {
+  display: flex !important;
+  flex-direction: row !important;
+}
+.AppIconButton {
+  flex: 0;
+}
+.AppInput {
+  flex: 1;
+}
